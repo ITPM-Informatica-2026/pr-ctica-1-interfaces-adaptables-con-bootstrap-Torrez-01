@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>EJERCICIO 2</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+min-height:100vh;
+background:linear-gradient(135deg,#f4efe7 0%,#dfd2bf 45%,#c9b28f 100%);
+}
+
+.bg-custom-dark{
+background:#1f1f1f;
+}
+
+.content-wrapper{
+background:white;
+border-radius:12px;
+padding:40px;
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.card{
+transition:0.3s;
+}
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+.columna{
+padding:15px;
+border-radius:6px;
+color:white;
+font-weight:500;
+}
+
+.col1{ background:#1f1f1f; }
+.col2{ background:#2c2c2c; }
+.col3{ background:#6c757d; }
+.col4{ background:#ced4da; color:black;}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-dark bg-custom-dark">
+<div class="container">
+<span class="navbar-brand">Mi Sitio</span>
+</div>
+</nav>
+
+<!-- CONTENIDO -->
+
+<div class="container mt-5 content-wrapper">
+
+<!-- TARJETAS -->
+
+<div class="row text-center mb-5">
+
+<div class="col-md-4 mb-3">
+<div class="card border-0">
+<div class="card-body">
+<h5>Tarjeta 1</h5>
+<p>Contenido de ejemplo con algunas palabras.</p>
+<button class="btn btn-outline-secondary">Leer más</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 mb-3">
+<div class="card border-0">
+<div class="card-body">
+<h5>Tarjeta 2</h5>
+<p>Contenido de ejemplo con algunas palabras.</p>
+<button class="btn btn-outline-secondary">Leer más</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 mb-3">
+<div class="card border-0">
+<div class="card-body">
+<h5>Tarjeta 3</h5>
+<p>Contenido de ejemplo con algunas palabras.</p>
+<button class="btn btn-outline-secondary">Leer más</button>
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- TITULO CENTRADO -->
+
+<div class="text-center mb-5">
+
+<h1 class="fw-bold">Título Centrado</h1>
+
+<p class="fs-5 text-muted">
+Texto descriptivo con tamaño más grande
+</p>
+
+</div>
+
+<!-- 4 COLUMNAS -->
+
+<div class="row text-center">
+
+<div class="col-md-3 col-6 mb-3">
+<div class="columna col1">Columna 1</div>
+</div>
+
+<div class="col-md-3 col-6 mb-3">
+<div class="columna col2">Columna 2</div>
+</div>
+
+<div class="col-md-3 col-6 mb-3">
+<div class="columna col3">Columna 3</div>
+</div>
+
+<div class="col-md-3 col-6 mb-3">
+<div class="columna col4">Columna 4</div>
+</div>
+
+</div>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
